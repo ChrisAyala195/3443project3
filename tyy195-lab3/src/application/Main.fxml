@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane prefHeight="750.0" prefWidth="750.0">
+         <children>
+            <Button fx:id="btnTopLeft" layoutX="43.0" layoutY="33.0" mnemonicParsing="false" onAction="#btnTopLeftPress" prefHeight="119.0" prefWidth="171.0">
+               <graphic>
+                  <ImageView fitHeight="146.0" fitWidth="204.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../optional_images/captain_america.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="btnTopRight" layoutX="480.0" layoutY="44.0" mnemonicParsing="false" onAction="#btnTopRightPress" prefHeight="119.0" prefWidth="171.0">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../optional_images/hulk.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="btnBottomLeft" layoutX="42.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnBottomLeftPress" prefHeight="119.0" prefWidth="171.0">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../optional_images/thor.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="btnBottomRight" layoutX="508.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnBottomRightPress" prefHeight="119.0" prefWidth="171.0">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../optional_images/black_widow.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextArea fx:id="textTopLeft" layoutX="49.0" layoutY="201.0" prefHeight="100.0" prefWidth="200.0" />
+            <TextArea fx:id="textTopRight" layoutX="486.0" layoutY="201.0" prefHeight="100.0" prefWidth="200.0" />
+            <TextArea fx:id="textBottomLeft" layoutX="43.0" layoutY="529.0" prefHeight="100.0" prefWidth="200.0" />
+            <TextArea fx:id="textBottomRight" layoutX="494.0" layoutY="529.0" prefHeight="100.0" prefWidth="200.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../optional_images/shield.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="125.0" layoutY="643.0" prefHeight="75.0" prefWidth="500.0" text="S.H.I.E.L.D">
+               <font>
+                  <Font size="69.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
