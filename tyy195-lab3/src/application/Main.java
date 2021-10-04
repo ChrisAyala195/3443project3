@@ -1,3 +1,10 @@
+/******************************************************************************
+ * 	       	          	   	Chris Ayala                     			      *
+ * 								Tyy195	    								  *
+ * 								Lab 3										  *
+ * 				Contains 2 versions. One of them is commented out.			  *
+ * 	I left comments which lines would need to be changed to change versions.  *
+ ******************************************************************************/
 package application;
 	
 import javafx.application.Application;
@@ -8,6 +15,7 @@ import javafx.fxml.FXMLLoader;
 
 
 public class Main extends Application {
+	//holds the root fxml code used to generate the application view
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -21,6 +29,7 @@ public class Main extends Application {
 		}
 	}
 	
+	//main launches the application view
 	public static void main(String[] args) {
 		launch(args);
 	}

@@ -20,4 +20,11 @@
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>tyy195-Lab3UMLDiagram.class.violet.html</name>
+			<type>1</type>
+			<location>C:/Users/Chris&apos;s PC/Desktop/School Stuff/UTSA/UTSA COURSES/CS3443 UTSAFALL21/tyy195-Lab3UMLDiagram.class.violet.html</location>
+		</link>
+	</linkedResources>
 </projectDescription>
